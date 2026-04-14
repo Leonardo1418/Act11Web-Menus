@@ -1,6 +1,15 @@
-@extends('layouts.app')
+@extends('adminlte::page')
+
+@section('title', 'Fotos')
+
+@section('content_header')
+    <h1>Galería de Fotos</h1>
+@stop
 
 @section('content')
-    <h1>Galería de Fotos</h1>
-    <p>Aquí se muestran todas las fotografías disponibles en el sitio. Muchas fotos fotos muchas</p>
-@endsection
+    <div class="card">
+        <div class="card-body">
+            <p>Aquí se ven todas las fotos disponibles en el sitio. ohhh demasiadas fotos</p>
+        </div>
+    </div>
+@stop

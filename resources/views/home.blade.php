@@ -1,6 +1,15 @@
-@extends('layouts.app')
+@extends('adminlte::page')
+
+@section('title', 'Inicio')
+
+@section('content_header')
+    <h1>Inicio</h1>
+@stop
 
 @section('content')
-    <h1>Bienvenido a la página de Inicio</h1>
-    <p>Esta es la página principal del sitio. Aquí encontrarás información general.</p>
-@endsection
+    <div class="card">
+        <div class="card-body">
+            <p>Bienvenido a la página principal del sitio. Aquí encontrarás información general.</p>
+        </div>
+    </div>
+@stop
